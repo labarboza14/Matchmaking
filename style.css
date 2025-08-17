@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px 0 15px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007acc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005f99;
+}
+
+#listaUsuarios {
+  list-style: none;
+  padding: 0;
+}
+
+#listaUsuarios li {
+  background: #eef6ff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.match-card {
+  background: #e0ffe0;
+  border: 1px solid #8bc34a;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
